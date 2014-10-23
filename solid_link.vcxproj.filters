@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{4afcf492-e9f5-4871-a158-a23c19cfecc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{2801a1ea-5eed-4770-a639-702ff33231d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\net">
+      <UniqueIdentifier>{6e035565-4a7f-4df1-8ac0-633e8c092631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\util">
+      <UniqueIdentifier>{7d16993e-00bd-4f07-8d3c-a07621e5ad1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app\type">
+      <UniqueIdentifier>{3b28cf7e-2f55-4825-afe5-025e482768b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_link.h">
+      <Filter>app\net</Filter>
+    </ClInclude>
+    <ClInclude Include="type_defined.h">
+      <Filter>app\type</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_link.cpp">
+      <Filter>app\net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tcp_link.inl">
+      <Filter>app\net</Filter>
+    </None>
+  </ItemGroup>
+</Project>
